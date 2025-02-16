@@ -19,6 +19,7 @@ def test14():
 
 #15.
 def test15():
+    print("**********Question 14**********")
     arr = [1, 2, 3, 4, 5, 8, 8, 2]
 
     duplicates = [x for x in arr if arr.count(x) > 1]
@@ -26,6 +27,10 @@ def test15():
     unique_duplicates = list(set(duplicates))
 
     print(unique_duplicates)
+    print("**************End**************")
 
 #16.
+
+test14()
+test15()
 
